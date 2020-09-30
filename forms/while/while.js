@@ -1,6 +1,4 @@
 
-
-/*
 let userChoice = confirm("Would you like to run the loop?")
 let i = 1
 
@@ -12,4 +10,4 @@ while (userChoice == true) {
     alert("The loop is now done.")
   }
 }
-*/
+

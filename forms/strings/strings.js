@@ -8,7 +8,7 @@ let authorString =  "- Henry Ford"
 let completeString = quoteString + authorString
 
 let found = completeString.includes('Henry') 
-if (found === true) { 
+if (found == true) { 
   alert('Henry was in the quote string')
 }
 else {
@@ -22,3 +22,4 @@ console.log(`Lower case string is ${lowerCaseString}`)
 let userNumber = Number(prompt("Please enter a number:"))
 updatedUserNumber = userNumber + 10
 console.log(`The number ${userNumber} + 10 is ${updatedUserNumber}.`)
+
